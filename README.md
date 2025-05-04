@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # Final-System
-=======
 # Egadget - Tech Products E-Commerce Store
 
 Egadget is a full-stack e-commerce application for tech products, with a React/Next.js frontend and Python/Flask backend.
