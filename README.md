@@ -3,23 +3,6 @@
 
 Egadget is a full-stack e-commerce application for tech products, with a React/Next.js frontend and Python/Flask backend.
 
-## Project Structure
-
-```
-project/
-├── app/              # Frontend Next.js app folders and pages
-├── components/       # Frontend UI components
-├── lib/              # Frontend utilities and providers
-├── public/           # Static assets
-├── styles/           # CSS/styling files
-├── backend/          # Python backend
-│   ├── app/          # Flask application
-│   ├── database/     # Database connection and models
-│   ├── models/       # Data models
-│   ├── routes/       # API routes
-│   └── utils/        # Utility functions
-```
-
 ## Technologies Used
 
 ### Frontend
@@ -38,17 +21,12 @@ project/
 ## Getting Started
 
 ### Setup Environment
-
-1. **Clone the repository**
-
-2. **Install frontend dependencies**
+1. **Install frontend dependencies**
    ```
    npm install
-   # or
-   pnpm install
    ```
 
-3. **Setup backend**
+2. **Setup backend**
    ```
    cd backend
    python -m venv venv
@@ -81,16 +59,7 @@ project/
 - Product reviews
 - Responsive design for mobile and desktop
 
-## API Endpoints
-
-The backend provides RESTful API endpoints:
-
-- `/api/auth/*` - Authentication related endpoints
-- `/api/products/*` - Product data endpoints
-- `/api/cart/*` - Shopping cart operations
-
 ## Demo Credentials
 
 - Email: demo@example.com
 - Password: password123 
->>>>>>> 8d71fd9 (Initial Commit)
